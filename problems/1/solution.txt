@@ -1,9 +1,3 @@
-ThmesecuetsmeszagedisytWhtnrusanwewsstreamncipheretnevirtuseathe key more than once
-
-
-
 ThmesecuetsmeszagedisytWhtnrusanwewsstreamncipheretnevirtuseatheokeywmorenthanronce
-Th  secret message is t
-
-
-ATherCoiciseeOqfor_Dictio_aryciwxufztde___neslcryptomasn_heeartaofrowritingforrgsol
+The secret message is: When using a stream cipher, never use the key more than once
+Thecsecuettmessage is: When using a stream cipher: neverauselthefkeyomoreethanbonct

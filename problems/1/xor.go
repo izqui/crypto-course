@@ -69,7 +69,7 @@ func main() {
 
 	for i := range cipherTextDecoded[:10] {
 
-		xored := XorBytes(cipherTextDecoded[9], cipherTextDecoded[i])
+		xored := XorBytes(cipherTextDecoded[10], cipherTextDecoded[9-i])
 		//fmt.Println(filter(xored))
 
 		for j := range letterRange {
@@ -87,10 +87,10 @@ func main() {
 	}
 
 	fmt.Println(string(solution))
-	fmt.Println(filter(XorBytes(cipherTextDecoded[0], cipherTextDecoded[1])))
-	fmt.Println(filter(XorBytes(cipherTextDecoded[0], cipherTextDecoded[2])))
-	fmt.Println(filter(XorBytes(cipherTextDecoded[0], cipherTextDecoded[3])))
-	fmt.Println(filter(XorBytes(cipherTextDecoded[0], cipherTextDecoded[4])))
+	fmt.Println(filter(XorBytes(cipherTextDecoded[10], cipherTextDecoded[1])))
+	fmt.Println(filter(XorBytes(cipherTextDecoded[10], cipherTextDecoded[2])))
+	fmt.Println(filter(XorBytes(cipherTextDecoded[10], cipherTextDecoded[3])))
+	fmt.Println(filter(XorBytes(cipherTextDecoded[10], cipherTextDecoded[4], cipherTextDecoded[5], cipherTextDecoded[6])))
 
 }
 
